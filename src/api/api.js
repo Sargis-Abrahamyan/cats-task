@@ -3,7 +3,6 @@ import axios from "axios";
 export const Get_Categories = async () => {
     const response = await axios.get(`https://api.thecatapi.com/v1/categories`)
     if (response.status === 200) return response.data
-
 };
 
 export const Get_Data_Cats = async (categoryId = 1) => {
