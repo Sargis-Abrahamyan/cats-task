@@ -1,0 +1,22 @@
+$btnAddBack: #0d1117;
+$btnAddColor: #61dafb;
+
+.addCatsBtn {
+  width: 100px;
+  padding: 10px;
+  background-color: $btnAddBack;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: $btnAddColor;
+  border: 2px solid $btnAddColor;
+  transition: 0.5s;
+  &:hover {
+    box-shadow: 1px 1px 8px 2px;
+    transition: 0.5s;
+  }
+}

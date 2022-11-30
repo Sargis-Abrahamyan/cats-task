@@ -1,0 +1,40 @@
+$color: #61dafb;
+$backColor: #0d1117;
+
+.categoryBlock {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+
+  .categoryItems {
+    margin: 1px;
+    .link {
+      text-decoration: none;
+      width: 50px;
+      padding: 10px;
+      border: 2px solid;
+      color: $color;
+      background-color: $backColor;
+      transition: 0.5s;
+
+      &:hover {
+        border: 2px solid;
+        background-color: $color;
+        color: $backColor;
+        transition: 0.5s;
+      }
+    }
+    .active {
+      width: 50px;
+      padding: 10px;
+      border: 2px solid;
+      background-color: $color;
+      color: $backColor;
+      transition: 0.5s;
+      font-weight: 900;
+      text-decoration: none;
+    }
+  }
+}

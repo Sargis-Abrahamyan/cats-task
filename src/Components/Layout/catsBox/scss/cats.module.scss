@@ -1,0 +1,10 @@
+.container {
+  max-width: 70%;
+  margin: 10px auto;
+
+  .catsListBlock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
